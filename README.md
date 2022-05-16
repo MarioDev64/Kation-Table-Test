@@ -30,9 +30,9 @@ Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 To finish, you be able to run the development server:
 
 ```bash
-npm run dev
+npm start
 # or
-yarn dev
+yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
