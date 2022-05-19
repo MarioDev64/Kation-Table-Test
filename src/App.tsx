@@ -51,7 +51,7 @@ function App() {
     ], []);
     
   const requestContacts = useCallback(async () => {
-    const response = await fetch('http://localhost:3001/contacts');
+    const response = await fetch('/contacts');
     const data = await response.json();
     setContacts([...data]);
   }, []);

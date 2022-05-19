@@ -17,17 +17,9 @@ npm install
 yarn install
 ```
 
-Then, Initiate Json Server to serve the data.
-
-```bash
-npm run start:server
-# or
-yarn start:server
-```
-
-Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
-
-To finish, you be able to run the development server:
+Then, development server.
+Hint: The project use concurrently.
+please check `packge.json` `scripts` section.
 
 ```bash
 npm start
@@ -36,6 +28,7 @@ yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you want to see json server in the browser, open [http://localhost:3001](http://localhost:3001).
 
 ## Conventional Commit
 
